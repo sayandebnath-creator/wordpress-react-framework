@@ -16,8 +16,6 @@ A modern WordPress theme framework built with React and Webpack. This framework 
 │       ├── gutenberg-block.js
 │       ├── react-app.js
 │       └── shortcode.js
-├── 📂 dist
-│   └── bundle.js
 ├── 📂 includes
 │   ├── enqueue-scripts.php
 │   ├── register-blocks.php
