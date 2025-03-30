@@ -1,13 +1,14 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 
 const App = () => {
-    return <h1>Hello from React Framework in WordPress!</h1>;
+    return <h1>Hello from React in WordPress Theme!</h1>;
 };
 
 document.addEventListener("DOMContentLoaded", function () {
-    const root = document.getElementById("react-root");
-    if (root) {
-        ReactDOM.render(<App />, root);
+    const rootElement = document.getElementById("react-root");
+    if (rootElement) {
+        const root = createRoot(rootElement);
+        root.render(<App />);
     }
 });
