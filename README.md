@@ -30,7 +30,7 @@ react-wordpress-framework/
 ## 🛠 Installation & Setup
 ### 1. Clone the Repository
 ```sh
-git clone https://github.com/your-username/react-wordpress-framework.git
+git clone https://github.com/sayandebnath-creator/react-wordpress-framework.git
 ```
 
 ### 2. Install Dependencies
