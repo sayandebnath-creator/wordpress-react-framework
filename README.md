@@ -10,21 +10,27 @@ A modern WordPress theme framework built with React and Webpack. This framework 
 
 ## 📂 Folder Structure
 ```
-react-wordpress-framework/
-├── assets/               # Static assets (CSS, JS, images, etc.)
-│   ├── css/              # Theme styles
-│   ├── js/               # JavaScript files
-│   ├── react-app.js      # Main React entry file
-│   └── webpack.config.js # Webpack configuration
-├── dist/                 # Webpack compiled output
-├── functions.php         # WordPress theme functions
-├── header.php            # Theme header
-├── footer.php            # Theme footer
-├── index.php             # Main template file
-├── style.css             # WordPress required stylesheet
-├── package.json          # Node.js dependencies
-├── webpack.config.js     # Webpack configuration
-└── README.md             # Project documentation
+📂 react-wordpress-framework
+├── 📂 assets
+│   └── 📂 js
+│       ├── gutenberg-block.js
+│       ├── react-app.js
+│       └── shortcode.js
+├── 📂 dist
+│   └── bundle.js
+├── 📂 includes
+│   ├── enqueue-scripts.php
+│   ├── register-blocks.php
+│   └── register-shortcodes.php
+├── .babelrc
+├── functions.php
+├── index.php
+├── package-lock.json
+├── package.json
+├── react-wordpress-framework.php
+├── style.css
+└── webpack.config.js
+
 ```
 
 ## 🛠 Installation & Setup
